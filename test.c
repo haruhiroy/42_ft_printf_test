@@ -1,3 +1,5 @@
+// cc test.c -I../ft_printf -L../ft_printf -lftprintf && ./a.out
+
 #include <stdio.h>
 #include <ft_printf.h>
 
