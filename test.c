@@ -112,6 +112,12 @@ int main(void)
 	ret = ft_printf(fmt);
 	printf("/ret=%i\n", ret);
 
+	fmt = "";
+	ret = printf(fmt);
+	printf("/ret=%i\n", ret);
+	ret = ft_printf(fmt);
+	printf("/ret=%i\n", ret);
+
 	fmt = NULL;
 	ret = printf(fmt);
 	printf("/ret=%i\n", ret);
