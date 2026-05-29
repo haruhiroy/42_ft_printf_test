@@ -130,6 +130,12 @@ int main(void)
 	ret = ft_printf(fmt, -2147483648, -2147483649);
 	printf("/ret=%i\n", ret);
 
+	fmt = "8a int min minus test: [%-d][%-d]";
+	ret = printf(fmt, -2147483648, -2147483649);
+	printf("/ret=%i\n", ret);
+	ret = ft_printf(fmt, -2147483648, -2147483649);
+	printf("/ret=%i\n", ret);
+
 	fmt = "9 uint test: [%u][%u][%u]";
 	ret = printf(fmt, 0, 42, -42);
 	printf("/ret=%i\n", ret);
